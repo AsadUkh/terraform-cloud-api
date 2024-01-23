@@ -8,13 +8,8 @@ terraform {
   }
 }
 
-provider "google" {
-  impersonate_service_account = "terraform@gcp-hackathon-macys.iam.gserviceaccount.com"
-  project                     = "gcp-hackathon-macys"
-}
-provider "google-beta" {
-  impersonate_service_account = "terraform@gcp-hackathon-macys.iam.gserviceaccount.com"
-  project                     = "gcp-hackathon-macys"
+provider "aws" {
+  region     = "us-west-2"
 }
 
 
