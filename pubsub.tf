@@ -12,3 +12,4 @@ resource "google_pubsub_subscription" "B_MSP_LTY_MB_MONEY_RC_GCP_SEND_SUB" {
     ttl = "31536000s"
   }
 }
+
