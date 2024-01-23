@@ -7,3 +7,11 @@ resource "aws_s3_bucket" "creationofbucket" {
   }
 }
 
+resource "aws_s3_bucket" "creationofbucket1" {
+  bucket = "asad-bucket2"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
