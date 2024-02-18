@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "creationofbucket" {
 }
 
 resource "aws_s3_bucket" "github-action" {
-  bucket = "githubactions"
+  bucket = "githubactions-asad-custom-v1"
 
   tags = {
     Name        = "My bucket"
